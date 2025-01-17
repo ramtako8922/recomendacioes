@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
 });
 function redirection(){
-    const tiempoDeEspera = 6000; // 6 segundos
+    const tiempoDeEspera = 10000; // 10 segundos
 
     setTimeout(() => {
         // Cambia a la ruta del home
