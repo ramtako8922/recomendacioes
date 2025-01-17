@@ -66,7 +66,7 @@ if x.isna().sum().sum() > 0 or y.isna().sum() > 0:
 
 # Entrenamiento del modelo
 x_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=101)
-modelo = RandomForestClassifier(n_estimators=100, random_state=42, class_weight="balanced")
+modelo = RandomForestClassifier(n_estimators=150, random_state=42, class_weight="balanced")
 modelo.fit(x_train, y_train)
 
 # Guardar el modelo y el mapeo de ciudades
