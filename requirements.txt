@@ -4,5 +4,4 @@ httpx
 joblib
 scikit-learn
 pandas
-Jinja2Templates
-
+Jinja2
