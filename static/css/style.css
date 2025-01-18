@@ -50,6 +50,12 @@ input[type="number"]{
     border-radius: 5px;
     text-align: right;
 }
+.number_row{
+    display: flex;
+   
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
 input[type="submit"] {
     background-color: #5cb85c;
