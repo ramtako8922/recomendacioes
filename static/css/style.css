@@ -52,7 +52,6 @@ input[type="number"]{
 }
 .number_row{
     display: flex;
-   
     justify-content: space-between;
     margin-bottom: 10px;
 }
