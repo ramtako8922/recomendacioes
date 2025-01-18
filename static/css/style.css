@@ -53,8 +53,8 @@ input[type="number"]{
 .number_row{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    
+    margin-bottom: 2%;
 }
 
 input[type="submit"] {
