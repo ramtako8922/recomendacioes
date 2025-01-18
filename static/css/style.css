@@ -53,8 +53,12 @@ input[type="number"]{
 .number_row{
     display: flex;
     flex-direction: row;
-
     margin-bottom: 2%;
+    justify-content: space-around;
+}
+.number_box{
+    display: flex;
+    flex-direction: column;
 }
 
 input[type="submit"] {
