@@ -44,16 +44,16 @@ select, input[type="submit"]  {
 }
 input[type="number"]{
     width: 15%;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    text-align: right;
+   
 }
 .number_row{
     display: flex;
     flex-direction: row;
-    
+
     margin-bottom: 2%;
 }
 
