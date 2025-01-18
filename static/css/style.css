@@ -59,6 +59,7 @@ input[type="number"]{
 .number_box{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 input[type="submit"] {
